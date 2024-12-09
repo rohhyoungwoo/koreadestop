@@ -1,0 +1,12 @@
+package accessModifier;
+
+public class Person {
+	//필드
+	String name;
+	int age;
+	
+	//메소드
+	void printInfo() {
+		System.out.println(this.name + "님 환영합니다!");
+	}
+}

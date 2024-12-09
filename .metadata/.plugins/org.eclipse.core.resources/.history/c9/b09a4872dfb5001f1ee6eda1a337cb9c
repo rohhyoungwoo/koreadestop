@@ -1,0 +1,12 @@
+package casting3;
+
+public class Cat extends Animal{
+
+	@Override
+	void crying() {
+		System.out.println("야옹");
+	}
+
+	//메소드 오버라이딩
+	
+}

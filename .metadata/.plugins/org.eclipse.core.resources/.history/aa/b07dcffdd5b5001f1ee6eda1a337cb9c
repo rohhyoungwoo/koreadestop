@@ -1,0 +1,10 @@
+package accessModifier2;
+
+public class SuperCar extends Car{
+
+	@Override
+	void speedUp() {
+		speed += 20;
+	}
+
+}

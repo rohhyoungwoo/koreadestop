@@ -1,0 +1,13 @@
+package casting;
+
+public class CatingTest {
+	public static void main(String[] args) {
+		//각각 클래스 객체
+		Tv tv = new Tv();
+		System.out.println(tv);
+		
+		SmartTv smartTv = new SmartTv();
+		System.out.println(smartTv);
+		
+	}
+}

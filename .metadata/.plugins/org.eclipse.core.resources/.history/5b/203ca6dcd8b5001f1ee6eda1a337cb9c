@@ -1,0 +1,26 @@
+package casting;
+
+public class CatingTest {
+	public static void main(String[] args) {
+		//각각 클래스 객체
+		Tv tv = new Tv();
+		System.out.println(tv);
+		tv.chUp();	//부모 객체의 값은 자식 클래스에 있는 멤버사용 불가능
+		
+		
+		SmartTv smartTv = new SmartTv();
+		System.out.println(smartTv);
+		smartTv.chUp();
+		smartTv.netflix(); //자식 객체의 값은 자식 클래스에 있는 멤버사용가능
+		
+		//Up Casting
+		//방법1.
+		SmartTv sTv1 = new SmartTv();
+//		자료형	변수명 =	값
+		Tv tv1 = new SmartTv();
+		System.out.println(tv1);
+		tv1.netflix();
+		
+		
+	}
+}

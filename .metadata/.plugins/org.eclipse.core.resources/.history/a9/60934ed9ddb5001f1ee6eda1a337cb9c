@@ -1,0 +1,19 @@
+package casting2;
+//6번 : 자식객체의 타입 여러개인지 확인-메인클래스
+public class TypeTest {
+	public static void main(String[] args) {
+		Parents p = new Parents();
+		Child c = new Child();
+		
+		System.out.println(p);
+		System.out.println(c);
+		
+		
+		//객체 instanceof 클래스명 => boolean타입으로 나온다
+		System.out.println(p);
+		
+		
+		
+		
+	}
+}

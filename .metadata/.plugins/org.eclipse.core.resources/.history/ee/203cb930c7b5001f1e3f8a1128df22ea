@@ -1,0 +1,16 @@
+package review1;
+
+public class Developer extends Employee{
+
+	public Developer(String name, int salary) {
+		super(name, salary);
+	}
+
+	@Override
+	double calculateBonus() {
+		return salary * 0.15;
+	}
+
+	
+	
+}

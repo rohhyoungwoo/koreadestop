@@ -1,0 +1,12 @@
+package casting4;
+
+public class Hulk extends Hero{
+
+	//생성자
+	public Hulk(String name) {
+		super(name);
+	}
+
+	//메소드오버라이딩
+	
+}

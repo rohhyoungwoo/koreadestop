@@ -1,0 +1,27 @@
+package review3;
+
+public class Account {
+//	3) 잔액확인 프로그램
+//SavingsAccount와 CheckingAccount 클래스는 Account 클래스 상속
+//Account 클래스
+//필드
+//   balance
+//메소드
+//   deposit(double amount) : 금액을 추가
+//   withdraw(double amount) : 금액을 차감
+	
+	//필드
+	double balance;
+
+	//생성자
+public Account(int balance) {
+	super();
+	this.balance = balance;
+}
+	
+	
+	
+	
+	
+	
+}
