@@ -106,6 +106,11 @@ public class Task01 {
 //		System.out.println(num1 < num2 && num1 < num3) ? "출력 : ");
 		System.out.println("결과 : " + small);
 
+//		  resultBig = (num01 > num02 && num01 > num03) ? num01 : num02 > num03 ? num02 :num03 ;
+//	      resultMiddle = ((num01 != resultSmall) && (num01 != resultBig)) ? num01 : ((num02 != resultSmall) && (num02 != resultBig)) ? num02:num03;
+//	      resultSmall = (num01 < num02 && num01 < num03) ? num01 : num02 < num03  ? num02 :num03 ;
+//	               
+//	     System.out.println("출력 : " + resultSmall+ " " + resultMiddle + " " + resultBig);
 
 
 

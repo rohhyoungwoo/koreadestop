@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="classBacsic2.Car"/>
     <fullyQualifiedTypeName name="inheritanceTest2.Dog"/>
     <fullyQualifiedTypeName name="inheritanceConstructor.Parents"/>
+    <fullyQualifiedTypeName name="interFaceTest3.Utility"/>
 </qualifiedTypeNameHistroy>
