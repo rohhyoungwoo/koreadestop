@@ -2,6 +2,7 @@ package task;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 //public class Random<Integer> {
 //	public static void main(String[] args) {
@@ -19,6 +20,8 @@ package task;
 //	
 //	}
 
+=======
+>>>>>>> a8ac738d8420ce7a7d3137910808734830504941
 =======
 >>>>>>> a8ac738d8420ce7a7d3137910808734830504941
 =======
