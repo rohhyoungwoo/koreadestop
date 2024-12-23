@@ -1,6 +1,10 @@
 package test01;
 
 public class UserVO {
+	// - UserVO 클래스
+	// 유저번호, 아이디, 비밀번호, 이름, 나이
+	// 모든 필드는 private으로 선언하고 생성자를 통해서만 초기화한다
+	// toString() 재정의하여 모든 필드의 값을 확인할 수 있도록해야하며 유저 번호 값으로 객체의 동일성을 비교한다
 	// 필드
 	private int userNo;
 	private String id;
@@ -63,17 +67,3 @@ public class UserVO {
 		return Integer.hashCode(userNo);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

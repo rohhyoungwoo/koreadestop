@@ -16,15 +16,39 @@ public class Main {
 		
 
 		Student score = new Student("노형우", 0, 0, 0);
+		
 		int java = 0;
 		int dbms = 0;
 		int html = 0;
+		//세과목을 입력했을때 범위 0~100 이여야 출력 WHILE문?
 		System.out.println("java 점수를 입력하세요 : ");
 		java =sc.nextInt();
+		
+		
+		
+		
+		while(!(java <= 100 && java > 0)) {
+			System.out.println("0~100 사이의 숫자를 다시 입력하세요");
+			java = sc.nextInt();
+		}
+//		System.out.println(java);
+		
 		System.out.println("dbms 점수를 입력하세요 : ");
 		dbms = sc.nextInt();
+		while(!(dbms <= 100 && dbms > 0)) {
+			System.out.println("0~100 사이의 숫자를 다시 입력하세요");
+			dbms = sc.nextInt();
+		}
+//		System.out.println(dbms);
+		
 		System.out.println("html 점수를 입력하세요 : ");
 		html = sc.nextInt();
+		while(!(html <= 100 && html > 0)) {
+			System.out.println("0~100 사이의 숫자를 다시 입력하세요");
+			html = sc.nextInt();
+		}
+//		System.out.println(html);
+		
 		score.getTotalScore(java, dbms, html);
 		score.getAverageScore(score.getTotalScore(java, dbms, html));
 		System.out.println("총점과 평균 : " + score.getTotalScore(java, dbms, html) + "," + score.getAverageScore(score.getTotalScore(java, dbms, html)) );
